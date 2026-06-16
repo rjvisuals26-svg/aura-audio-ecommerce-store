@@ -71,15 +71,17 @@ AURA is engineered to feel like a high-end, luxury audio store. The project leve
 The interface is structured to guide the user from high-impact branding down to nuanced product specifications, utilizing an expansive and breathable layout grid.
 
 <div align="center">
-  <img src="image_07dbb2.jpg" alt="Aura New Arrivals and Speakers Banner" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
+  <img src="https://i.ibb.co/5CQx2f3/Screenshot-2026-06-16-152410.png" alt="Aura New Arrivals and Speakers Banner" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
   
   <br /><br />
   
-  <img src="image_07db91.jpg" alt="Aura Top Trending and Flagship Banner" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
+  <img src="https://i.ibb.co/HfppKHy1/Screenshot-2026-06-16-152541.png" alt="Aura Top Trending and Flagship Banner" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
   
   <br /><br />
   
-  <img src="image_07d8e4.png" alt="Aura Features and Footer" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
+  <img src="https://i.ibb.co/fVpHQgFz/Screenshot-2026-06-16-152702.png" alt="Aura Features and previw" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
+    <br /><br />
+  <img src="https://i.ibb.co/DPx6R5Zn/Screenshot-2026-06-16-152837.png" alt="Aura Features and previw" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
 </div>
 
 ---
