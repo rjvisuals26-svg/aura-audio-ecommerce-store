@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AURA — Experience Sound Beyond Limits</title>
+  <meta name="description"
+    content="AURA crafts premium wireless headphones, earbuds and speakers engineered for clarity, comfort and immersive audio experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">AURA<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#">Headphones</a>
+        <a href="#">Earbuds</a>
+        <a href="#">Speakers</a>
+        <a href="#">Accessories</a>
+      </nav>
+      <!-- Search -->
+      <div class="nav-search" id="navSearchWrap">
+        <button class="nav-icon-btn" id="searchToggle" aria-label="Search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+        <input class="nav-search-input" id="searchInput" type="search" placeholder="Search products..." />
+      </div>
+      <!-- Icons -->
+      <div class="nav-icons">
+        <button class="nav-icon-btn" aria-label="Wishlist">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+        </button>
+        <button class="nav-icon-btn" aria-label="Account">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+        </button>
+        <button class="nav-icon-btn cart-btn" aria-label="Cart" id="cartBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1" />
+            <circle cx="20" cy="21" r="1" />
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+          </svg>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+      </div>
+      <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <section class="hero-banner">
+    <img src="https://i.ibb.co/nMKz9g5Y/Chat-GPT-Image-Jun-15-2026-09-58-52-PM.png" alt="Aura Banner"
+      class="hero-banner-bg" />
+
+    <div class="banner-content">
+      <div class="banner-tags">
+        <span class="banner-tag-new">NEW</span>
+        <span class="banner-tag-series">AURA PRO SERIES</span>
+      </div>
+
+      <h2 class="banner-subtitle">The new standard in luxury audio</h2>
+      <h1 class="banner-title">INTRODUCING AURA</h1>
+
+      <p class="banner-desc">Premium audio engineered for clarity, comfort, and immersive experiences that move with
+        you.</p>
+
+      <div class="banner-actions">
+        <a href="#new-arrivals" class="btn btn-primary">Explore Products &rarr;</a>
+        <a href="product.html" class="btn btn-primary">Buy Now</a>
+      </div>
+
+      <div class="banner-features">
+        <div class="banner-feature">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 4v16" />
+            <path d="M8 8v8" />
+            <path d="M16 10v4" />
+            <path d="M4 11v2" />
+            <path d="M20 11v2" />
+          </svg>
+          Hi-Res Audio
+        </div>
+        <div class="banner-feature">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="4" width="12" height="16" rx="2" ry="2" />
+            <path d="M10 2h4" />
+            <path d="M12 10v4" />
+            <path d="M10 12h4" />
+          </svg>
+          40H Battery Life
+        </div>
+        <div class="banner-feature">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="m7 7 10 10-5 5V2l5 5-10 10" />
+          </svg>
+          Bluetooth 5.3
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TRUST BADGES -->
+  <div class="trust-bar reveal">
+    <div class="container trust-grid">
+      <div class="trust-item"><span class="trust-icon trust-icon--ship"></span>
+        <div><strong>Free Worldwide Shipping</strong>
+          <p>On orders over $50</p>
+        </div>
+      </div>
+      <div class="trust-item"><span class="trust-icon trust-icon--return"></span>
+        <div><strong>30-Day Returns</strong>
+          <p>No questions asked</p>
+        </div>
+      </div>
+      <div class="trust-item"><span class="trust-icon trust-icon--secure"></span>
+        <div><strong>Secure Checkout</strong>
+          <p>256-bit SSL encrypted</p>
+        </div>
+      </div>
+      <div class="trust-item"><span class="trust-icon trust-icon--warranty"></span>
+        <div><strong>2-Year Warranty</strong>
+          <p>On all products</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- NEW ARRIVALS -->
+  <section id="new-arrivals" class="section na-section">
+    <div class="container">
+      <div class="na-header reveal">
+        <h2 class="na-title">NEW <em>ARRIVALS</em></h2>
+        <a href="#products" class="na-view-all">View All</a>
+      </div>
+      <div class="na-track-wrap">
+        <button class="na-arrow na-arrow-prev" aria-label="Previous">&#8592;</button>
+        <div class="na-track" id="naTrack">
+
+          <article class="na-card reveal">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/Nd0wFhT2/Adobe-Express-file-11.png" alt="Glaze Earbuds">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#1c46ff">Newly Launched</span>
+              <h3 class="na-name">GLAZE EARBUDS</h3>
+              <p class="na-specs">Environmental Noise Cancellation | Dual Device Connectivity</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span class="review-count">(142)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$349</span>
+                <span class="na-old-price">$499</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-1">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/bjCjkctT/Adobe-Express-file-12.png" alt="Pulse Speaker">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#1c46ff">Newly Launched</span>
+              <h3 class="na-name">PULSE | MINI SPEAKER</h3>
+              <p class="na-specs">22.5 Watt Max | 360&#176; Surround Sound</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span class="review-count">(98)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$149</span>
+                <span class="na-old-price">$199</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-2">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/FLMfNH4Q/Adobe-Express-file-13.png" alt="Pro Headphones">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#1c46ff">Newly Launched</span>
+              <h3 class="na-name">PRO X168A</h3>
+              <p class="na-specs">Studio-Grade ANC | 48h Playback</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span class="review-count">(317)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$349</span>
+                <span class="na-old-price">$449</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-3">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/Lh1zFTQV/Adobe-Express-file-14.png" alt="Hurricane Headphones">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#7a5cff">Gaming Headphone</span>
+              <h3 class="na-name">HURRICANE HEADPHONES</h3>
+              <p class="na-specs">25ms Ultra-Low Latency | Laptop | Mobile</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span class="review-count">(84)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$289</span>
+                <span class="na-old-price">$399</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-4">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/nNz1Qd0j/Adobe-Express-file-10.png" alt="AURA Mini Pro">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#e63946">AI Voice Translator</span>
+              <h3 class="na-name">AURA MINI PRO</h3>
+              <p class="na-specs">Compact 360&#176; Bass | Aluminum Unibody | IPX5</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9734; <span class="review-count">(53)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$199</span>
+                <span class="na-old-price">$259</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        <button class="na-arrow na-arrow-next" aria-label="Next">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER SLIDER -->
+  <section class="section banner-slider-section">
+    <div class="container">
+      <div class="banner-slider-wrap reveal">
+        <button class="arrow-btn banner-arrow-prev" aria-label="Previous">&larr;</button>
+        <div class="banner-track" id="bannerTrack">
+          <div class="banner-slide">
+            <div class="banner-badge"><span>BEST SELLER</span></div>
+            <img src="https://i.ibb.co/kVrM0gb5/Gemini-Generated-Image-ur2dwfur2dwfur2d-clean.png" alt="AURA Promo 1"
+              loading="lazy">
+          </div>
+          <div class="banner-slide">
+            <div class="banner-badge"><span>BEST SELLER</span></div>
+            <img src="https://i.ibb.co/YF1LkpqC/Gemini-Generated-Image-hmagh2hmagh2hmag-clean.png" alt="AURA Promo 2"
+              loading="lazy">
+          </div>
+          <div class="banner-slide">
+            <div class="banner-badge"><span>BEST SELLER</span></div>
+            <img src="https://i.ibb.co/5xBBsj5N/Gemini-Generated-Image-f26og5f26og5f26o-clean.png" alt="AURA Promo 3"
+              loading="lazy">
+          </div>
+        </div>
+        <button class="arrow-btn banner-arrow-next" aria-label="Next">&rarr;</button>
+        <div class="banner-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP TRENDING -->
+  <section id="top-trending" class="section na-section">
+    <div class="container">
+      <div class="na-header reveal">
+        <h2 class="na-title tt-title">TOP <em>TRENDING</em></h2>
+        <a href="#products" class="na-view-all">View All</a>
+      </div>
+      <div class="na-track-wrap">
+        <button class="na-arrow tt-arrow-prev" aria-label="Previous">&#8592;</button>
+        <div class="na-track" id="ttTrack">
+
+          <article class="na-card reveal">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="assets/product-pro.jpg" alt="AURA Pro">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#f97316">Best Seller</span>
+              <h3 class="na-name">AURA PRO HEADPHONES</h3>
+              <p class="na-specs">Studio-Grade ANC | 48h Playback | USB-C Fast Charge</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="na-pricing">
+                <span class="na-price">$349</span>
+                <span class="na-old-price">$449</span>
+              </div>
+              <a href="#" class="na-buy-btn tt-buy-btn">Buy Now</a>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-1">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/cS66hhZj/Adobe-Express-file-16.png" alt="AURA Air">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#f97316">Hot Pick</span>
+              <h3 class="na-name">AURA AIR EARBUDS</h3>
+              <p class="na-specs">Spatial Audio | 36h Total Battery | Wireless Charging</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="na-pricing">
+                <span class="na-price">$199</span>
+                <span class="na-old-price">$259</span>
+              </div>
+              <a href="#" class="na-buy-btn tt-buy-btn">Buy Now</a>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-2">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/9kbRpyDC/Adobe-Express-file-15.png" alt="AURA Mini">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#eab308">Top Rated</span>
+              <h3 class="na-name">AURA MINI SPEAKER</h3>
+              <p class="na-specs">360&#176; Surround | IPX7 Waterproof | 20h Playback</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="na-pricing">
+                <span class="na-price">$149</span>
+                <span class="na-old-price">$189</span>
+              </div>
+              <a href="#" class="na-buy-btn tt-buy-btn">Buy Now</a>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-3">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/qYxJhMyG/Adobe-Express-file-17.png" alt="AURA Pro Elite">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#f97316">Trending</span>
+              <h3 class="na-name">PRO ELITE EDITION</h3>
+              <p class="na-specs">Titanium Frame | Hi-Res Audio | Qi Wireless</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+              <div class="na-pricing">
+                <span class="na-price">$499</span>
+                <span class="na-old-price">$649</span>
+              </div>
+              <a href="#" class="na-buy-btn tt-buy-btn">Buy Now</a>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-4">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/Nd0wFhT2/Adobe-Express-file-11.png" alt="Air Sport">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#eab308">Fan Favourite</span>
+              <h3 class="na-name">AIR SPORT EDITION</h3>
+              <p class="na-specs">SweatShield Pro | Secure Fit | 32h Battery</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="na-pricing">
+                <span class="na-price">$229</span>
+                <span class="na-old-price">$299</span>
+              </div>
+              <a href="#" class="na-buy-btn tt-buy-btn">Buy Now</a>
+            </div>
+          </article>
+
+        </div>
+        <button class="na-arrow tt-arrow-next" aria-label="Next">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMO BANNER -->
+  <section class="section" style="padding-top: 40px; padding-bottom: 40px;">
+    <div class="container reveal">
+      <div style="border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-sm);">
+        <img src="https://i.ibb.co/vCtpXZB1/Gemini-Generated-Image-35lvrg35lvrg35lv-clean.png" alt="AURA Promo Banner"
+          style="width: 100%; display: block;" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- WHY -->
+  <section id="why" class="section">
+    <div class="container">
+      <div class="section-head reveal" style="margin-bottom: 40px;">
+        <h2>Why AURA?</h2>
+      </div>
+      <div class="why-center-grid">
+        <div class="why-col left">
+          <div class="why-point reveal-left">
+            <div class="why-title"><span class="arrow-icon">▷</span>
+              <h3>Exceptional Quality</h3>
+            </div>
+            <p>Reference-tuned drivers reveal what other headphones hide, providing unparalleled clarity.</p>
+          </div>
+          <div class="why-point reveal-left reveal-delay-2">
+            <div class="why-title"><span class="arrow-icon">▷</span>
+              <h3>Versatile User-Friendly</h3>
+            </div>
+            <p>Senses your environment and adjusts in real time with intuitive touch controls.</p>
+          </div>
+        </div>
+        <div class="why-center-img reveal-scale">
+          <img src="https://i.ibb.co/2zcN7k5/Adobe-Express-file-6.png" alt="AURA Air Earbuds">
+        </div>
+        <div class="why-col right">
+          <div class="why-point reveal-right">
+            <div class="why-title"><span class="arrow-icon">▷</span>
+              <h3>Innovative Design</h3>
+            </div>
+            <p>Pressure-mapped cushions for all-day wear and minimal aesthetic.</p>
+          </div>
+          <div class="why-point reveal-right reveal-delay-2">
+            <div class="why-title"><span class="arrow-icon">▷</span>
+              <h3>Superior Durability</h3>
+            </div>
+            <p>Machined aluminum and sweat-resistant materials ensure they last.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section reveal">
+    <div class="container">
+      <div class="newsletter-inner">
+        <div class="newsletter-copy">
+          <span class="eyebrow"
+            style="background:rgba(255,255,255,.15);color:#fff;border-color:rgba(255,255,255,.3)">Exclusive Drops</span>
+          <h2>Get <em
+              style="background:linear-gradient(90deg,#a5b8ff,#fff);-webkit-background-clip:text;background-clip:text;color:transparent">10%
+              Off</em> Your First Order</h2>
+          <p>Subscribe for new product launches, limited-edition releases, and members-only discounts.</p>
+        </div>
+        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+          <div class="newsletter-input-wrap">
+            <input type="email" id="newsletterEmail" placeholder="Enter your email address" required />
+            <button type="submit" class="btn btn-primary">Subscribe &#8594;</button>
+          </div>
+          <p class="newsletter-note">No spam. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#" class="logo">AURA<span>.</span></a>
+        <p class="muted">Premium audio, beyond limits.<br>Crafted for those who listen differently.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="X">X</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+      <div>
+        <h5>Products</h5>
+        <a href="#">Headphones</a><a href="#">Earbuds</a><a href="#">Speakers</a><a href="#">Accessories</a>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="#">About</a><a href="#">Press</a><a href="#">Careers</a><a href="#">Sustainability</a>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <a href="#">Help Center</a><a href="#">Warranty</a><a href="#">Shipping &amp; Returns</a><a href="#">Contact
+          Us</a>
+      </div>
+    </div>
+    <!-- Payment methods -->
+    <div class="container foot-payments">
+      <span class="foot-pay-label">We accept:</span>
+      <div class="pay-icons">
+        <span class="pay-chip">VISA</span>
+        <span class="pay-chip">Mastercard</span>
+        <span class="pay-chip">&#63743; Pay</span>
+        <span class="pay-chip">G Pay</span>
+        <span class="pay-chip">PayPal</span>
+        <span class="pay-chip">AMEX</span>
+      </div>
+    </div>
+    <div class="container foot-bottom">
+      <span>&#169; 2026 AURA Audio. All rights reserved.</span>
+      <span>Designed in Copenhagen. Built for the world.</span>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+
+</html>

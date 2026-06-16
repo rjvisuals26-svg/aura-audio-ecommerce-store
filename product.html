@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AURA Pro Series — Experience Sound Beyond Limits</title>
+  <meta name="description"
+    content="AURA crafts premium wireless headphones, earbuds and speakers engineered for clarity, comfort and immersive audio experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">AURA<span>.</span></a>
+      <nav class="nav-links">
+        <a href="index.html#">Headphones</a>
+        <a href="index.html#">Earbuds</a>
+        <a href="index.html#">Speakers</a>
+        <a href="index.html#">Accessories</a>
+      </nav>
+      <!-- Search -->
+      <div class="nav-search" id="navSearchWrap">
+        <button class="nav-icon-btn" id="searchToggle" aria-label="Search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+        <input class="nav-search-input" id="searchInput" type="search" placeholder="Search products..." />
+      </div>
+      <!-- Icons -->
+      <div class="nav-icons">
+        <button class="nav-icon-btn" aria-label="Wishlist">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+        </button>
+        <button class="nav-icon-btn" aria-label="Account">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+        </button>
+        <button class="nav-icon-btn cart-btn" aria-label="Cart" id="cartBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1" />
+            <circle cx="20" cy="21" r="1" />
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+          </svg>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+      </div>
+      <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- PRODUCT VIEW -->
+  <main class="product-view page-section">
+    <div class="container product-view-container">
+      
+      <!-- Gallery Column -->
+      <div class="product-gallery reveal">
+        <div class="main-image-wrap">
+          <img id="mainProductImage" src="https://i.ibb.co/nMyFcp2g/Adobe-Express-file-7.png" alt="AURA Pro Series Main">
+        </div>
+        <div class="thumbnail-row">
+          <button class="thumb-btn active" data-color="Midnight Black" data-img="https://i.ibb.co/nMyFcp2g/Adobe-Express-file-7.png">
+            <img src="https://i.ibb.co/nMyFcp2g/Adobe-Express-file-7.png" alt="Midnight Black">
+          </button>
+          <button class="thumb-btn" data-color="Skin Color" data-img="https://i.ibb.co/nNz1Qd0j/Adobe-Express-file-10.png">
+            <img src="https://i.ibb.co/nNz1Qd0j/Adobe-Express-file-10.png" alt="Skin Color">
+          </button>
+          <button class="thumb-btn" data-color="Ocean Blue" data-img="https://i.ibb.co/YTWfctfN/Adobe-Express-file-9.png">
+            <img src="https://i.ibb.co/YTWfctfN/Adobe-Express-file-9.png" alt="Ocean Blue">
+          </button>
+        </div>
+      </div>
+
+      <!-- Details Column -->
+      <div class="product-details reveal reveal-delay-1">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a> <span class="sep">/</span> 
+          <a href="#">Headphones</a> <span class="sep">/</span> 
+          <span class="current">AURA Pro Series</span>
+        </div>
+        
+        <h1 class="product-title">AURA Pro Series</h1>
+        <p class="product-subtitle">Premium Over-Ear Wireless Headphones</p>
+        
+        <div class="product-price-row">
+          <span class="price">$349.00</span>
+          <div class="rating">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#1c46ff" stroke="#1c46ff" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#1c46ff" stroke="#1c46ff" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#1c46ff" stroke="#1c46ff" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#1c46ff" stroke="#1c46ff" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1c46ff" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>(128 Reviews)</span>
+          </div>
+        </div>
+
+        <p class="product-description">
+          Experience reference-tuned drivers that reveal what other headphones hide. Crafted with machined aluminum and pressure-mapped memory foam for unparalleled comfort. Features industry-leading active noise cancellation.
+        </p>
+
+        <!-- Color Selector -->
+        <div class="product-colors" style="position: relative;">
+          <span class="special-tag" style="margin-bottom: 8px;">Special</span><br>
+          <span class="color-label">Color: <strong id="colorNameDisplay">Midnight Black</strong></span>
+          <div class="swatch-row">
+            <button class="color-swatch active" data-color="Midnight Black" data-img="https://i.ibb.co/nMyFcp2g/Adobe-Express-file-7.png" style="background: #111;" aria-label="Midnight Black"></button>
+            <button class="color-swatch" data-color="Skin Color" data-img="https://i.ibb.co/nNz1Qd0j/Adobe-Express-file-10.png" style="background: #e6d5c3;" aria-label="Skin Color"></button>
+            <button class="color-swatch" data-color="Ocean Blue" data-img="https://i.ibb.co/YTWfctfN/Adobe-Express-file-9.png" style="background: #1c46ff;" aria-label="Ocean Blue"></button>
+          </div>
+        </div>
+
+        <div class="product-actions">
+          <button class="btn btn-primary btn-large w-full">Add to Cart — $349.00</button>
+          <button class="btn btn-outline btn-large w-full">Buy Now</button>
+        </div>
+        <div class="product-trust-badges">
+          <div class="ptb-item">
+            <svg class="ptb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 15a5 5 0 100-10 5 5 0 000 10z"></path><path d="M8.5 14L5 22l3.5-2L12 22l3.5-2L19 22l-3.5-8"></path><path d="M10 10l1.5 1.5L14 8"></path></svg>
+            <span><strong>1 Year</strong><br>Warranty</span>
+          </div>
+          <div class="ptb-item">
+            <svg class="ptb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="6" width="12" height="10" rx="1"></rect><path d="M15 8h3l3 4v4h-6"></path><circle cx="6" cy="18" r="2"></circle><circle cx="17" cy="18" r="2"></circle><path d="M13 2H5"></path><path d="M9 4H2"></path></svg>
+            <span><strong>Free</strong><br>Shipping</span>
+          </div>
+          <div class="ptb-item">
+            <svg class="ptb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9V5a3 3 0 00-3-3l-4 9v11h11.28a2 2 0 002-1.7l1.38-9a2 2 0 00-2-2.3zM7 22H4a2 2 0 01-2-2v-7a2 2 0 012-2h3"></path><circle cx="12" cy="12" r="10"></circle></svg>
+            <span><strong>1,000,000</strong><br>Customers</span>
+          </div>
+          <div class="ptb-item">
+            <svg class="ptb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line><path d="M19 19a9 9 0 10-14 0"></path><polyline points="19 14 19 19 14 19"></polyline></svg>
+            <span><strong>7 Days</strong><br>Replacement</span>
+          </div>
+        </div>
+
+        <!-- Accordions -->
+        <div class="product-accordions">
+          <div class="accordion">
+            <button class="accordion-trigger">
+              <span>Technical Specifications</span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <ul>
+                <li><strong>Drivers:</strong> 40mm Reference-Tuned</li>
+                <li><strong>Battery Life:</strong> Up to 48 hours</li>
+                <li><strong>Connectivity:</strong> Bluetooth 5.3</li>
+                <li><strong>Weight:</strong> 260g</li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion">
+            <button class="accordion-trigger">
+              <span>What's in the Box</span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <ul>
+                <li>AURA Pro Series Headphones</li>
+                <li>Braided USB-C Charging Cable</li>
+                <li>Premium Travel Case</li>
+                <li>Quick Start Guide</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- CINEMATIC VIDEO SHOWCASE -->
+  <section class="video-showcase page-section reveal">
+    <div class="video-wrap" style="position: relative; width: 100%; height: 80vh; min-height: 500px; max-height: 800px; overflow: hidden; background: #0a0a0a;">
+      <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6; filter: contrast(1.1) brightness(0.9);">
+        <source src="assets/watermark-removed-also_generate_video_of_this_pr.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-content" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff; width: 100%; max-width: 800px; padding: 0 20px; z-index: 2;">
+        <span class="eyebrow" style="color: #000; border-color: rgba(0,0,0,0.3); margin-bottom: 24px; display: inline-block;">Director's Cut</span>
+        <h2 style="font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 500; margin-bottom: 24px; letter-spacing: -0.03em; line-height: 1; color: #ffffff;">Sound, Perfected.</h2>
+        <p style="font-size: 1.25rem; font-weight: 300; opacity: 0.8; max-width: 500px; margin: 0 auto 40px;">Discover the engineering behind the AURA Pro Series in our exclusive cinematic showcase.</p>
+        <button class="btn btn-outline" style="color: #fff; border-color: #fff; border-radius: 100px; padding: 16px 40px; font-size: 1rem; background: transparent; backdrop-filter: blur(5px);">Watch Film &nbsp; &#9654;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES BENTO -->
+  <section class="features-bento page-section reveal">
+    <div class="container">
+      <div class="features-bento-grid">
+        <!-- Card 1 -->
+        <div class="fb-card fb-c1" style="background: transparent;">
+          <img src="https://i.ibb.co/1JqYKCZv/Gemini-Generated-Image-etvu4xetvu4xetvu-clean.png" class="bg" alt="Charge, Fast">
+          <div class="fb-content">
+            <div style="width: 32px; height: 32px; border: 1.5px solid #a89f91; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 12px; color: #a89f91;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3>Sculpted to<br>Charge, Fast</h3>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="fb-card fb-c2" style="background: transparent;">
+          <img src="https://i.ibb.co/x9Vw09R/Gemini-Generated-Image-a2sc1ja2sc1ja2sc-clean.png" class="bg" alt="Aura Clarity Core">
+          <div class="fb-content top" style="max-width: 250px; margin-left: auto; text-align: right;">
+            <h3>Aura Clarity Core&trade;<br>Technology</h3>
+            <p>For Pure Sound</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="fb-card fb-c3" style="background: transparent;">
+          <img src="https://i.ibb.co/C5j1H1GC/Gemini-Generated-Image-qbwkrfqbwkrfqbwk-clean.png" class="bg" alt="Subtle Brilliance">
+          <div class="fb-content">
+            <h3 style="font-size: 18px; font-weight: 500;">Subtle Brilliance, Woven Light</h3>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="fb-card fb-c4" style="background: transparent;">
+          <img src="https://i.ibb.co/YFYLZ9Zj/Gemini-Generated-Image-ze9zgbze9zgbze9z-clean.png" class="bg" alt="Hush Field ANC">
+          <div class="fb-content">
+            <h3 style="font-size: 20px;">Hush Field&trade;<br>Active Silence (ANC)</h3>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="fb-card fb-c5" style="background: transparent;">
+          <img src="https://i.ibb.co/Fbn082SR/Gemini-Generated-Image-qtszt8qtszt8qtsz-clean.png" class="bg" alt="Precision-Pivoting">
+          <div class="fb-content top" style="margin-bottom: 24px;">
+            <h3>Precision-Pivoting<br>Pivoting for<br>a Seamless Fit</h3>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="fb-card fb-c6" style="background: transparent;">
+          <img src="https://i.ibb.co/F4vZD2tR/Gemini-Generated-Image-dibzxedibzxedibz-clean.png" class="bg" alt="Up to 45 Hours">
+          <div class="fb-content">
+            <h3 style="font-size: 26px; font-weight: 600;">Up to 45 Hours<br>of Sculpted Sound</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OVERVIEW & SPECS -->
+  <section class="specs-section page-section reveal">
+    <div class="container specs-container">
+      
+      <div class="na-header reveal" style="justify-content: center; margin-bottom: 60px;">
+        <h2 class="na-title" style="color: #000;">TECHNICAL DETAILS</h2>
+      </div>
+
+      <!-- Overview Row -->
+      <div class="specs-row overview-row">
+        <div class="specs-heading">
+          <h2>Overview</h2>
+        </div>
+        <div class="specs-content">
+          <p>Experience powerful sound and modern convenience with AURA Pro Series wireless headphones. Built with 40mm Reference-Tuned drivers to deliver rich stereo audio for music and calls. Industry-leading active noise cancellation ensures clearer conversations and immersive listening, and up to 48 hours of playtime with seamless dual device connection makes them a perfect companion for work, travel, and everyday use.</p>
+        </div>
+      </div>
+
+      <!-- Explore Specs Row -->
+      <div class="specs-title-row">
+        <h2>Explore the Specs</h2>
+      </div>
+
+      <!-- Spec Row 1: Model -->
+      <div class="specs-row spec-item">
+        <div class="spec-icon-title">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M12 11v2"/></svg>
+          <h3>Model</h3>
+        </div>
+        <div class="spec-details">
+          <p><strong>Name:</strong> AURA Pro Series</p>
+          <p><strong>Model:</strong> PRO-X168A</p>
+        </div>
+      </div>
+
+      <!-- Spec Row 2: Colors -->
+      <div class="specs-row spec-item">
+        <div class="spec-icon-title">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          <h3>Colors</h3>
+        </div>
+        <div class="spec-details">
+          <p>Midnight Black, PREMIUM SKIN, Ocean Blue</p>
+        </div>
+      </div>
+
+      <!-- Spec Row 3: Look and Feel -->
+      <div class="specs-row spec-item">
+        <div class="spec-icon-title">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+          <h3>Look and Feel</h3>
+        </div>
+        <div class="spec-details">
+          <p>Futuristic matte-black ergonomic design with premium finish.</p>
+        </div>
+      </div>
+
+      <!-- Spec Row 4: Connectivity -->
+      <div class="specs-row spec-item">
+        <div class="spec-icon-title">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m7 7 10 10-5 5V2l5 5-10 10"/></svg>
+          <h3>Connectivity</h3>
+        </div>
+        <div class="spec-details">
+          <p><strong>Bluetooth Version:</strong> Bluetooth V5.4</p>
+          <p><strong>Supported Profiles:</strong> A2DP / AVCTP / AVDTP / HFP</p>
+          <p><strong>Wireless Range:</strong> 10m</p>
+          <p><strong>Compatibility:</strong> Android &amp; iOS</p>
+          <p><strong>Dual Device Connection:</strong> Yes</p>
+        </div>
+      </div>
+
+      <!-- Spec Row 5: Audio -->
+      <div class="specs-row spec-item">
+        <div class="spec-icon-title">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l3-9 5 18 3-9h5"/></svg>
+          <h3>Audio</h3>
+        </div>
+        <div class="spec-details">
+          <p><strong>Stereo Sound</strong></p>
+          <p><strong>Active Noise Cancellation (ANC):</strong> No</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- CUSTOMER REVIEWS -->
+  <section class="reviews-section page-section reveal">
+    <div class="container reviews-container">
+      <div class="reviews-header">
+        <h2>CUSTOMER REVIEWS</h2>
+        <div class="reviews-summary-row">
+          <div class="reviews-summary-left">
+            <div class="rating-stars">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="rating-text">
+              <strong>5.00 out of 5</strong><br>
+              <span class="muted">Based on 2 reviews</span>
+            </div>
+          </div>
+          <div class="reviews-summary-right">
+            <button class="btn btn-primary-blue">Write a Review</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="reviews-filter">
+        <select class="reviews-select">
+          <option>Most Recent</option>
+          <option>Highest Rated</option>
+          <option>Lowest Rated</option>
+        </select>
+      </div>
+      
+      <div class="reviews-list">
+        <!-- Review 1 -->
+        <div class="review-item">
+          <div class="review-head">
+            <div class="review-stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="review-date">05/20/2026</div>
+          </div>
+          <div class="review-author">
+            <div class="author-avatar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="author-name">Fareeha abid</span>
+            <span class="verified-badge">Verified</span>
+          </div>
+          <h4 class="review-title">Perfect</h4>
+          <p class="review-body">Best quality, delivery service so faster 🤩, and customer care services so good,</p>
+          
+          <div class="brand-reply">
+            <p><strong>&gt;&gt; AURA replied:</strong></p>
+            <p>We're thrilled to hear that you had a positive experience with our AURA Pro Headphones and our customer service.</p>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-item">
+          <div class="review-head">
+            <div class="review-stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="review-date">05/06/2026</div>
+          </div>
+          <div class="review-author">
+            <div class="author-avatar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="author-name">Noreen Khan</span>
+            <span class="verified-badge">Verified</span>
+          </div>
+          <h4 class="review-title">AURA Pro Series</h4>
+          <p class="review-body">Call, gaming &amp; video volume is very good. It just take some seconds to attach but once its attached you're good to go</p>
+          
+          <div class="brand-reply">
+            <p><strong>&gt;&gt; AURA replied:</strong></p>
+            <p>We're so happy to hear that you're enjoying the product, especially its great call, gaming, and video volume.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YOU MAY ALSO LIKE -->
+  <section id="you-may-like" class="na-section page-section">
+    <div class="container">
+      <div class="na-header reveal">
+        <h2 class="na-title">YOU MAY <em>ALSO LIKE</em></h2>
+      </div>
+      <div class="na-track-wrap">
+        <button class="na-arrow ymal-arrow-prev" aria-label="Previous">&#8592;</button>
+        <div class="na-track" id="ymalTrack">
+
+          <article class="na-card reveal">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/2zcN7k5/Adobe-Express-file-6.png" alt="Glaze Earbuds">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#1c46ff">Newly Launched</span>
+              <h3 class="na-name">GLAZE EARBUDS</h3>
+              <p class="na-specs">Environmental Noise Cancellation | Dual Device Connectivity</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span class="review-count">(142)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$349</span>
+                <span class="na-old-price">$499</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn" style="background:var(--blue);">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-1">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="assets/product-mini.jpg" alt="Pulse Speaker">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#1c46ff">Newly Launched</span>
+              <h3 class="na-name">PULSE | MINI SPEAKER</h3>
+              <p class="na-specs">22.5 Watt Max | 360&#176; Surround Sound</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span class="review-count">(98)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$149</span>
+                <span class="na-old-price">$199</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn" style="background:var(--blue);">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-2">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="assets/product-pro.jpg" alt="Pro Headphones">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#1c46ff">Newly Launched</span>
+              <h3 class="na-name">PRO X168A</h3>
+              <p class="na-specs">Studio-Grade ANC | 48h Playback</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span class="review-count">(317)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$349</span>
+                <span class="na-old-price">$449</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn" style="background:var(--blue);">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="na-card reveal reveal-delay-3">
+            <button class="na-like-btn" aria-label="Like">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="na-img-wrap">
+              <img src="https://i.ibb.co/2zcN7k5/Adobe-Express-file-6.png" alt="Hurricane Headphones">
+            </div>
+            <div class="na-body">
+              <span class="na-tag" style="--tag-color:#7a5cff">Gaming Headphone</span>
+              <h3 class="na-name">HURRICANE HEADPHONES</h3>
+              <p class="na-specs">25ms Ultra-Low Latency | Laptop | Mobile</p>
+              <div class="na-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <span class="review-count">(84)</span></div>
+              <div class="na-pricing">
+                <span class="na-price">$289</span>
+                <span class="na-old-price">$399</span>
+              </div>
+              <div class="na-actions">
+                <a href="product.html" class="na-buy-btn" style="background:var(--blue);">Buy Now</a>
+                <button class="na-cart-btn" aria-label="Add to cart" title="Add to Cart">+</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        <button class="na-arrow ymal-arrow-next" aria-label="Next">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo">AURA<span>.</span></a>
+        <p class="muted">Premium audio, beyond limits.<br>Crafted for those who listen differently.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="X">X</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+      <div>
+        <h5>Products</h5>
+        <a href="#">Headphones</a><a href="#">Earbuds</a><a href="#">Speakers</a><a href="#">Accessories</a>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="#">About</a><a href="#">Press</a><a href="#">Careers</a><a href="#">Sustainability</a>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <a href="#">Help Center</a><a href="#">Warranty</a><a href="#">Shipping &amp; Returns</a><a href="#">Contact Us</a>
+      </div>
+    </div>
+    <!-- Payment methods -->
+    <div class="container foot-payments">
+      <span class="foot-pay-label">We accept:</span>
+      <div class="pay-icons">
+        <span class="pay-chip">VISA</span>
+        <span class="pay-chip">Mastercard</span>
+        <span class="pay-chip">&#63743; Pay</span>
+        <span class="pay-chip">G Pay</span>
+        <span class="pay-chip">PayPal</span>
+        <span class="pay-chip">AMEX</span>
+      </div>
+    </div>
+    <div class="container foot-bottom">
+      <span>&#169; 2026 AURA Audio. All rights reserved.</span>
+      <span>Designed in Copenhagen. Built for the world.</span>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
