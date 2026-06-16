@@ -84,20 +84,6 @@ The interface is structured to guide the user from high-impact branding down to 
 
 ---
 
-## 🗂️ File Structure
-
-The repository maintains a flat and straightforward structure for ease of development:
-
-```text
-aura/
-├── index.html          # The main homepage/landing page (Hero, New Arrivals, Trending)
-├── product.html        # Detailed product view (Gallery, Specs, Bento Grid, Reviews)
-├── README.md           # Project documentation
-└── assets/             # Directory for static resources
-    ├── style.css       # Core stylesheet (Design tokens, utility classes, and components)
-    ├── script.js       # Core interactivity (Sliders, observers, UI toggles)
-    └── (media files)   # Images, icons, and cinematic video assets (.jpg, .png, .mp4)
-
 ## 🖋️ Typography & Fonts
 
 AURA uses a carefully curated typography stack to maintain its tech-luxury feel. The fonts are imported directly via Google Fonts.
@@ -114,3 +100,20 @@ AURA uses a carefully curated typography stack to maintain its tech-luxury feel.
 *   **HTML5:** Semantic markup for structured content.
 *   **CSS3:** Vanilla CSS utilizing Custom Properties (Variables), Grid, Flexbox, `clamp()` functions, and media queries for fluid responsiveness.
 *   **JavaScript (ES6):** Vanilla JS for DOM manipulation, Intersection Observers (scroll reveals), and component interactivity.
+
+  
+## 🗂️ File Structure
+
+The repository maintains a flat and straightforward structure for ease of development:
+
+```text
+aura/
+├── index.html          # The main homepage/landing page (Hero, New Arrivals, Trending)
+├── product.html        # Detailed product view (Gallery, Specs, Bento Grid, Reviews)
+├── README.md           # Project documentation
+└── assets/             # Directory for static resources
+    ├── style.css       # Core stylesheet (Design tokens, utility classes, and components)
+    ├── script.js       # Core interactivity (Sliders, observers, UI toggles)
+    └── (media files)   # Images, icons, and cinematic video assets (.jpg, .png, .mp4)
+---
+
