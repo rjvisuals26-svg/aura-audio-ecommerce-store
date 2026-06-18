@@ -5,7 +5,6 @@
 </div>
 
 <br />
-
 <div align="center">
   <h3>Luxury Audio E-Commerce Interface</h3>
   <p>A front-end web application for a luxury audio brand, showcasing premium wireless gear through a sleek, immersive, and minimal digital storefront.</p>
@@ -66,25 +65,19 @@ AURA is engineered to feel like a high-end, luxury audio store. The project leve
 
 ---
 
-## 🖥️ Interface Architecture & Visuals
-
-The interface is structured to guide the user from high-impact branding down to nuanced product specifications, utilizing an expansive and breathable layout grid.
-
 <div align="center">
-  <img src="https://i.ibb.co/5CQx2f3/Screenshot-2026-06-16-152410.png" alt="Aura New Arrivals and Speakers Banner" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
+  <img src="https://i.ibb.co/5CQx2f3/Screenshot-2026-06-16-152410.png" alt="Aura New Arrivals and Speakers Banner" style="height: 450px; width: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
   
   <br /><br />
   
-  <img src="https://i.ibb.co/HfppKHy1/Screenshot-2026-06-16-152541.png" alt="Aura Top Trending and Flagship Banner" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
+  <img src="https://i.ibb.co/HfppKHy1/Screenshot-2026-06-16-152541.png" alt="Aura Top Trending and Flagship Banner" style="height: 450px; width: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
   
   <br /><br />
   
-  <img src="https://i.ibb.co/gMFrqdBT/Gemini-Generated-Image-4qmbth4qmbth4qmb.png" alt="Aura Features and previw" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
+  <img src="https://i.ibb.co/gMFrqdBT/Gemini-Generated-Image-4qmbth4qmbth4qmb.png" alt="Aura Features and preview" style="height: 450px; width: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
     <br /><br />
-  <img src="https://i.ibb.co/DPx6R5Zn/Screenshot-2026-06-16-152837.png" alt="Aura Features and previw" style="max-width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
+  <img src="https://i.ibb.co/DPx6R5Zn/Screenshot-2026-06-16-152837.png" alt="Aura Features and preview" style="height: 450px; width: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
 </div>
-
----
 
 ## 🖋️ Typography & Fonts
 
