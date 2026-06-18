@@ -81,32 +81,33 @@ AURA is engineered to feel like a high-end, luxury audio store. The project leve
 
 AURA uses a carefully curated typography stack to maintain its tech-luxury feel. The fonts are imported directly via Google Fonts.
 
-*   **[Inter](https://fonts.google.com/specimen/Inter)** (Weights: 300, 400, 500, 600, 700, 800, 900)
-    *   Used for the primary body text, UI elements, and technical specifications to ensure maximum legibility and a clean, modern look.
-*   **[Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)** (Weights: 500, 600, 700)
-    *   Used for accent typography and specific stylized headers to add a subtle, futuristic technological edge to the brand.
+*   **[Inter](https://fonts.google.com/specimen/Inter)** (Weights: `300` | `400` | `500` | `600` | `700` | `800` | `900`)
+    *   *Purpose:* Used for the primary body text, UI elements, and technical specifications to ensure maximum legibility and a clean, modern look.
+*   **[Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)** (Weights: `500` | `600` | `700`)
+    *   *Purpose:* Used for accent typography and specific stylized headers to add a subtle, futuristic technological edge to the brand.
 
 ---
 
 ## 🛠️ Technologies Used
 
-*   **HTML5:** Semantic markup for structured content.
-*   **CSS3:** Vanilla CSS utilizing Custom Properties (Variables), Grid, Flexbox, `clamp()` functions, and media queries for fluid responsiveness.
-*   **JavaScript (ES6):** Vanilla JS for DOM manipulation, Intersection Observers (scroll reveals), and component interactivity.
+| Technology | Implementation Details |
+| :--- | :--- |
+| **HTML5** | Semantic markup for structured, accessible content. |
+| **CSS3** | Vanilla CSS utilizing Custom Properties (Variables), Grid, Flexbox, `clamp()` functions, and media queries for fluid responsiveness. |
+| **JavaScript (ES6)**| Vanilla JS for DOM manipulation, Intersection Observers (scroll reveals), and component interactivity. |
 
-  
+---
+
 ## 🗂️ File Structure
 
 The repository maintains a flat and straightforward structure for ease of development:
 
 ```text
 aura/
-├── index.html          # The main homepage/landing page (Hero, New Arrivals, Trending)
-├── product.html        # Detailed product view (Gallery, Specs, Bento Grid, Reviews)
-├── README.md           # Project documentation
-└── assets/             # Directory for static resources
-    ├── style.css       # Core stylesheet (Design tokens, utility classes, and components)
-    ├── script.js       # Core interactivity (Sliders, observers, UI toggles)
-    └── (media files)   # Images, icons, and cinematic video assets (.jpg, .png, .mp4)
----
-
+├── 📄 index.html        # Main homepage (Hero, New Arrivals, Trending)
+├── 📄 product.html      # Detailed product view (Gallery, Specs, Bento Grid)
+├── 📄 README.md         # Project documentation
+└── 📁 assets/           # Directory for static resources
+    ├── 🎨 style.css     # Core stylesheet (Tokens, utilities, and components)
+    ├── ⚡ script.js     # Core interactivity (Sliders, observers, UI toggles)
+    └── 🖼️ (media files) # Images, icons, and cinematic video assets
