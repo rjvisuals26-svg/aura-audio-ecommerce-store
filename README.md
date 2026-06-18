@@ -104,10 +104,10 @@ The repository maintains a flat and straightforward structure for ease of develo
 
 ```text
 aura/
-├── 📄 index.html        # Main homepage (Hero, New Arrivals, Trending)
-├── 📄 product.html      # Detailed product view (Gallery, Specs, Bento Grid)
-├── 📄 README.md         # Project documentation
-└── 📁 assets/           # Directory for static resources
-    ├── 🎨 style.css     # Core stylesheet (Tokens, utilities, and components)
-    ├── ⚡ script.js     # Core interactivity (Sliders, observers, UI toggles)
-    └── 🖼️ (media files) # Images, icons, and cinematic video assets
+├── index.html        # Main homepage (Hero, New Arrivals, Trending)
+├── product.html      # Detailed product view (Gallery, Specs, Bento Grid)
+├── README.md         # Project documentation
+└── assets/           # Directory for static resources
+    ├── style.css     # Core stylesheet (Tokens, utilities, and components)
+    ├── script.js     # Core interactivity (Sliders, observers, UI toggles)
+    └── (media files) # Images, icons, and cinematic video assets
