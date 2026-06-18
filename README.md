@@ -76,8 +76,6 @@ AURA is engineered to feel like a high-end, luxury audio store. The project leve
   
   <img src="https://i.ibb.co/gMFrqdBT/Gemini-Generated-Image-4qmbth4qmbth4qmb.png" alt="Aura Features and preview" style="height: 450px; width: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
     <br /><br />
-  <img src="https://i.ibb.co/DPx6R5Zn/Screenshot-2026-06-16-152837.png" alt="Aura Features and preview" style="height: 450px; width: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" />
-</div>
 
 ## 🖋️ Typography & Fonts
 
