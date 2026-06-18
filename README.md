@@ -103,11 +103,18 @@ AURA uses a carefully curated typography stack to maintain its tech-luxury feel.
 The repository maintains a flat and straightforward structure for ease of development:
 
 ```text
-aura/
-├── index.html        # Main homepage (Hero, New Arrivals, Trending)
-├── product.html      # Detailed product view (Gallery, Specs, Bento Grid)
-├── README.md         # Project documentation
-└── assets/           # Directory for static resources
-    ├── style.css     # Core stylesheet (Tokens, utilities, and components)
-    ├── script.js     # Core interactivity (Sliders, observers, UI toggles)
-    └── (media files) # Images, icons, and cinematic video assets
+📁 aura/
+
+📄 index.html — Main homepage (Hero, New Arrivals, Trending)
+
+📄 product.html — Detailed product view (Gallery, Specs, Bento Grid)
+
+📄 README.md — Project documentation
+
+📁 assets/ — Directory for static resources
+
+🎨 style.css — Core stylesheet (Tokens, utilities, and components)
+
+⚡ script.js — Core interactivity (Sliders, observers, UI toggles)
+
+🖼️ (media files) — Images, icons, and cinematic video assets
